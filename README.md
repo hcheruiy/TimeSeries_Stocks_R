@@ -7,7 +7,6 @@ Due to dashboard hitting too many views if link doesn't work, back up is [here](
 
 # Table of Contents
 * [Abstract](#Abstract)
-* [Contributors](#Contributors)
 * [Packages Required](#Packages-Required)
 * [Shiny Dashboard](#shiny-dashboard)
 * [Steps Required](#Steps-Required)
@@ -16,13 +15,6 @@ Due to dashboard hitting too many views if link doesn't work, back up is [here](
 
 ## <a name="Abstract"></a>Abstract
 This project focuses on using univariate time series forecasting methods for the stock market index, Standard & Poor's 500 (abbreviated commonly as S&P 500, which is the notation we will use in this project) emphasizing on Box-Jenkins **AutoRegressive Integrated Moving Average (ARIMA)** modeling. We went about the time series analysis was through using **R** and **R studio** to both predict and visualize our predictions. Along with the interactivity of [plotly](https://plot.ly/) through the [ggplot2 package](https://github.com/tidyverse/ggplot2) we were able to create stunning visuals that help in understanding which time series forecasting method is most appropriate for your own time series analysis.
-
-## <a name="Contributors"></a>Contributors
-- Raul Eulogio
-- David Campos
-- Kim Specht
-- Nathan Fritter
-- Shon Inouye
 
 ## <a name="Packages-Required"></a>Packages Required
 
